@@ -2,9 +2,13 @@ body{
 	background-color: #eaecef;
 }
 
-.name{
+.name, .credit{
 	text-align: center;
 	font-family: 'Montserrat', Bold Italic;
+}
+
+a{
+	color:black;
 }
 
 .calc-body{
