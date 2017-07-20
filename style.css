@@ -46,6 +46,7 @@ a{
 }
 
 button{
+	cursor: pointer;
 	width: 70px;
 	height: 55px;
 	margin-top:10px;
@@ -54,6 +55,7 @@ button{
 	border-radius: 5px;
 	font-weight: bold;
 	font-family: 'Montserrat', Bold Italic;
+	outline: none;
 	}
 
 .button-long{
@@ -64,4 +66,8 @@ button{
 button:hover{
 	background-color: rgba(87, 215, 232, 1);
 	border-color: rgba(87, 215, 232, 1);
+}
+
+button:active{
+	background-color: white;
 }
